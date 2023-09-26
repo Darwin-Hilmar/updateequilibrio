@@ -1,0 +1,815 @@
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+
+  .section-title {
+    padding-bottom: 40px;
+  }
+
+  .section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #70a411;
+    font-family: 'Bold Light','Calibri';
+  }
+
+  .section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #e3e3ca;
+    font-family: 'Bold Light','Calibri';
+    margin: 4px 10px;
+  }
+
+  .section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Calibri';
+    color: #BACB14;
+    line-height: 1.0;
+  }
+
+  /*   Boton de enviar comentarios   */
+  .contact .php-email-form button[type=submit] {
+    background: rgb(38, 140, 14);
+    border: 0;
+    padding: 10px 24px;
+    color: #e3e3ca;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+
+  /* /:::::Pie de Pagina/ */
+.pie-pagina{
+    width: 100%;
+    background-color: rgb(112, 164, 17);
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+    text-align: justify;
+    color: white;
+}
+.pie-pagina .grupo-1 .box h3{
+  color: white;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: rgb(186, 203, 20);
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: rgb(38, 140, 14);
+}
+.pie-pagina .grupo-2{
+    background-color: rgb(38, 140, 14);
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+.icon-txt{
+    display: inline-block;
+    color:white;
+}
+
+/* Alianzas */
+
+.cursorIcon{
+  cursor: pointer;
+  background-color: #f15757;
+  font-size: 23px;
+}
+.logosAlianzas{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+/* Boton donar */
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: rgb(112, 164, 17);
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: rgb(186, 203, 20);
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* icono arriba */
+.back-up {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: rgb(112, 164, 17);
+  width: 40px;
+  height: 40px;
+  margin-bottom: 45px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-up i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-up:hover{
+  background: rgb(186, 203, 20);
+  color: #fff;
+}
+
+.back-up.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* icono youtube */
+.back-youtube {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: rgb(112, 164, 17);
+  width: 40px;
+  height: 40px;
+  margin-bottom: 90px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-youtube i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-youtube:hover{
+  background: rgb(186, 203, 20);
+  color: #fff;
+}
+
+.back-youtube.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* icono tiktok */
+.back-tiktok {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: rgb(112, 164, 17);
+  width: 40px;
+  height: 40px;
+  margin-bottom: 135px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-tiktok i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-tiktok:hover{
+  background: rgb(186, 203, 20);
+  color: #fff;
+}
+
+.back-tiktok.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* icono facebook */
+.back-facebook {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: rgb(112, 164, 17);
+  width: 40px;
+  height: 40px;
+  margin-bottom: 180px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-facebook i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-facebook:hover{
+  background: rgb(186, 203, 20);
+  color: #fff;
+}
+
+.back-facebook.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* icono instagram */
+.back-instagram {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: rgb(112, 164, 17);
+  width: 40px;
+  height: 40px;
+  margin-bottom: 225px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-instagram i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-instagram:hover{
+  background: rgb(186, 203, 20);
+  color: #fff;
+}
+
+.back-instagram.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* icono twitter */
+.back-twitter {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: rgb(112, 164, 17);
+  width: 40px;
+  height: 40px;
+  margin-bottom: 270px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-twitter i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-twitter:hover{
+  background: rgb(186, 203, 20);
+  color: #fff;
+}
+
+.back-twitter.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* icono linkedin */
+.back-linkedin {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: rgb(112, 164, 17);
+  width: 40px;
+  height: 40px;
+  margin-bottom: 315px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-linkedin i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-linkedin:hover{
+  background: rgb(186, 203, 20);
+  color: #fff;
+}
+
+.back-linkedin.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.btn-color{
+  border: none;
+  background: rgb(38, 140, 14);
+  padding: 16px 30px;
+  border-radius: 6px;
+  transition: 0.2s;
+  color: #fff;
+}
+
+.btn-color:hover{
+  box-shadow: 0 0 0 4px #fff,
+  0 0 0 8px rgb(112, 164, 17);
+  color: white;
+  font-weight: bold;
+}
+
+.botonDonar{
+  background-color: rgb(38, 140, 14); color:white;
+}
+
+.botonDonar :hover{
+  border-color: #111;
+  background-color: rgba(38, 140, 45, 0.815);
+  animation:slide-top 0.4s linear both
+}   
+/* --Boton Donativo-- */
+
+
+.btnDonar_Slider {
+  max-width: 200px; /* El ancho máximo del botón, ajusta este valor según tus necesidades */
+  font-size: 20px; /* Ajusta el tamaño de la fuente del botón según tus necesidades */
+  font-weight: bold;
+  background-color: rgb(38, 140, 14); 
+  color:white;
+  padding: 10px 12px;
+  border-radius: 10px;
+  display: inline-block;
+  transition: all .3s;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnDonar_Slider:hover{
+  background-color: rgba(38, 140, 45, 0.815);
+  color: white;
+  opacity: 0.9;
+  /* animation:slide-top 0.4s linear both */
+}
+
+@media (max-width: 968px) {
+  .btnDonar_Slider {
+    font-size: 18px; /* Tamaño de fuente más pequeño en dispositivos más pequeños */
+    transform: translate(-20%, -10%);
+  }
+}
+
+@media (max-width: 868px) {
+  .btnDonar_Slider {
+    font-size: 18px; /* Tamaño de fuente más pequeño en dispositivos más pequeños */
+    transform: translate(-20%, -20%);
+  }
+}
+
+@media (max-width: 768px) {
+  .btnDonar_Slider {
+    font-size: 18px; /* Tamaño de fuente más pequeño en dispositivos más pequeños */
+    transform: translate(-20%, -30%);
+  }
+}
+
+@media (max-width: 680px) {
+  .btnDonar_Slider {
+    font-size: 16px; /* Tamaño de fuente aún más pequeño en dispositivos móviles */
+    transform: translate(-20%, -40%);
+  }
+}
+
+@media (max-width: 580px) {
+  .btnDonar_Slider {
+    font-size: 16px; /* Tamaño de fuente aún más pequeño en dispositivos móviles */
+    transform: translate(-40%, -50%);
+  }
+}
+
+@media (max-width: 480px) {
+  .btnDonar_Slider {
+    font-size: 14px; /* Tamaño de fuente aún más pequeño en dispositivos móviles */
+    transform: translate(-40%, 120%);
+  }
+}
+
+/* aqui acaba reglas responsive CSS */
+
+@keyframes slide-top{
+  0%{transform:translateY(0)}
+  100%{transform:translateY(-20px)}
+}
+
+.contbtn {
+  position: absolute;
+  top: 90%; /* Ajusta la posición vertical según tus necesidades */
+  left: 48%; /* Ajusta la posición horizontal según tus necesidades */
+}
+
+.informacion{
+  color: rgb(112, 164, 17);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sub-informacion{
+  color: rgb(112, 164, 17);
+  font-size: 15px;
+  text-align: justify;
+}
+
+/* MAPA */
+#map {
+  height: 450px;
+  width: 80%;
+}
+
+#lati {
+  height: 450px;
+  width: 80%;
+}
+
+.text-box{
+  flex: 1;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  margin: 0 10px; 
+}
+
+/* LOGROS */
+.cd-box{
+  border: 2px;
+  padding: 10px;
+  background-color: rgb(38, 140, 14);
+}
+
+.card-body h4{
+  color: white;
+  text-align: justify;
+}
+
+
+.caja {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(38, 140, 14);
+  color: white;
+  padding: 10px;
+  margin-top: 15px; 
+  border-radius: 5px;
+  background: rgb(38, 140, 14);
+  cursor: pointer;
+}
+
+.more-info{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  margin-top: 15px; 
+  justify-content: center;
+}
+
+.icono {
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+.btn-color{
+  /* background-color: rgb(38, 140, 14); */
+  border-radius: 5px;
+  border: 2px solid rgb(38, 140, 14);
+}
+
+/* .alcance-h2{
+  color: rgb(38, 140, 14); 
+  font-weight: bold; 
+  text-align: center;
+}
+
+.alcance-h4{
+  text-align: center; 
+  color: #bacb14;
+} */
+
+.card-title h4{
+  color: rgb(38, 140, 14);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-body p{
+  color:rgb(112, 164, 17);
+  font-size: 17px;
+  text-align: justify;
+}
+
+/* portafolio - labor social */
+
+.portfolio-item
+{
+  position:relative;
+  overflow:hidden;
+}
+.portfolio-item figure
+{
+  margin:0;
+  padding:0;
+  position:relative;
+  cursor:pointer;
+}
+.portfolio-item figure img {
+  display:block;
+  position:relative;
+  z-index:10;
+  /* margin:-15px 10px; */
+  padding: 10px;
+}
+.portfolio-item figure figcaption {
+  display:block;
+  position:absolute;
+  z-index:5;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box
+}
+.portfolio-item figure h2 {
+  color:#fff;
+  font-size:20px;
+  text-align:left;
+  padding-bottom:15px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.portfolio-item figure p {
+  display:block;
+  line-height:18px;
+  margin:0;
+  color:#fff;
+  text-align:left
+}
+.portfolio-item figure figcaption {
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  padding: 59px 30px;
+  background-color: rgb(112, 164, 17);
+  backface-visibility:hidden;
+  -webkit-transform:rotateY(-180deg);
+  -moz-transform:rotateY(-180deg);
+  transform:rotateY(-180deg);
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+  text-align: center;
+}
+.portfolio-item figure img {
+  backface-visibility:hidden;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s
+}
+.portfolio-item figure:hover img,figure.hover img {
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  transform:rotateY(180deg)
+}
+.portfolio-item figure:hover figcaption,figure.hover figcaption {
+  -webkit-transform:rotateY(0);
+  -moz-transform:rotateY(0);
+  transform:rotateY(0)
+}
+.portfolio-item figure figcaption{
+  padding: 55px 30px;
+}
+.portfolio-item figure figcaption {
+  padding: 30px 30px;
+}
+.portfolio-item figure p{
+  font-size: 14px;
+}
+.portfolio-item figure h2{
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.alianzas{
+  background: url('../img/patron02.jpeg') no-repeat fixed;
+  background-size: cover;
+  min-height: 650px;
+  position: relative;
+}
+
+
+/* ESTILOS BLOG  */
+.papers,.papers:before,.papers:after {
+	background-color:#fff;
+	border:1px solid #ccc;
+	box-shadow:inset 0 0 30px rgba(0,0,0,0.1),1px 1px 3px rgba(0,0,0,0.2);
+}
+.papers {
+	position:relative;
+	width:90%;
+	padding:2em;
+	margin:0px auto;
+	margin-top:40px;
+	font-size:12px;
+  border-color: rgb(186, 203, 20);
+}
+.papers:before,.papers:after {
+	content:"";
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	-webkit-transform:rotateZ(2.5deg);
+	-o-transform:rotate(2.5deg);
+	transform:rotateZ(2.5deg);
+	z-index:-1;
+}
+.papers:after {
+	-webkit-transform:rotateZ(-2.5deg);
+	-o-transform:rotate(-2.5deg);
+	transform:rotateZ(-2.5deg);
+}
+.papers h4 {
+	font-size:1.8em;
+	font-weight:normal;
+	text-align:center;
+	padding:0.2em 0;
+	margin:0;
+  font-weight: bold;
+  color: rgb(38, 140, 14);
+	border-top:1px solid rgb(186, 203, 20);
+	border-bottom:1px solid rgb(186, 203, 20);
+}
+.papers p {
+	text-align:justify;
+	margin:1.5em 0;
+  color: rgb(112, 164, 17);
+}
+.papers img {
+	width:100%;
+	margin-bottom: 5px;
+}
+/* --- FINAL BLOG --- */
+
+.atencion-h5{
+  text-align: center; 
+  color: #bacb14;
+}
+
+.image-container{
+  margin: auto;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  .hidden-container {
+    display: block; /* Muestra la primera clase en modo móvil */
+  }
+  .nhidden-container {
+    display: none; /* Oculta la segunda clase en modo móvil */
+  }
+}
+
+/* Estilos para pantallas medianas */
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-container {
+    display: block; /* Oculta la primera clase en pantallas medianas */
+  }
+  .nhidden-container {
+    display: block; /* Muestra la segunda clase en pantallas medianas */
+  }
+}
+
+/* Estilos para pantallas más grandes */
+@media (min-width: 992px) {
+  .hidden-container {
+    display: block; /* Oculta la primera clase en pantallas más grandes */
+  }
+  .nhidden-container {
+    display: block; /* Muestra la segunda clase en pantallas más grandes */
+  }
+}
+
+.img_logo{
+  margin-bottom: 5px;
+
+}
+
+.sub_sectores{
+  text-align: justify; 
+  font-weight: bold; 
+  color: rgb(38, 140, 14);
+}
+
+.map-style{
+  margin-top: 10px;
+}

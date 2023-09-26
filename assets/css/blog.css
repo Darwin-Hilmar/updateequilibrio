@@ -1,0 +1,151 @@
+
+.propertystl{
+  text-align: center; 
+  width: 100%; 
+  border-collapse: separate; 
+  border-spacing: 5px;
+}
+
+.propertystl tbody{
+  color:rgb(38, 140, 14);
+}
+
+.propertystl thead{
+    background-color: green;
+}
+
+.propertystl thead th{
+    color: white;
+    padding: 10px;
+}
+
+.imagen-tabla{
+    width: 10rem;
+}
+
+.propertystl tbody th a{
+    margin: 0.5rem 0; padding: 0.2rem
+}
+
+.imagen-small{
+    width: 20rem;
+    margin: 10px;
+}
+
+.btn-success{
+  margin: 10px;
+  font-weight: bold;
+  background-color: rgb(38, 140, 14);
+}
+
+.cntls{
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.error_tls{
+  background-color: red; 
+  color:white; 
+  text-align:center; 
+  font-weight: bold; 
+  text-transform: uppercase;
+  margin: 1rem 0; 
+  padding: 0.2rem;
+}
+
+.check_tls{
+  background-color: green; 
+  color:white; 
+  text-align:center; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  margin: 1rem 0; 
+  padding: 0.2rem;
+}
+
+input[type="submit"] {
+  background-color: rgb(38, 140, 14); 
+  color: white; 
+  font-weight: bold;
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.ocultar_tls{
+  background-color: rgb(227, 227, 202); 
+  color: white; 
+}
+
+.btn-primary{
+  color: white; 
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer;  
+}
+
+.blog-content-persn {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.blog-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: rgb(112, 164, 17);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.blog-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.blog-author {
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: bold; /* Agregamos negrita */
+}
+
+.author-name {
+  font-weight: normal; /* Eliminamos negrita para el nombre del autor */
+}
+
+.blog-date {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: bold; /* Agregamos negrita */
+}
+
+.created-date {
+  font-weight: normal; /* Eliminamos negrita para la fecha */
+}
+
+.blog-description {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+

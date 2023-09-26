@@ -1,0 +1,203 @@
+.Home-QuienesSomos {
+    padding-top: 8rem !important;
+    position: relative;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.fadeInUp{
+    color: rgb(112, 164, 17);
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.pb-5, .py-5 {
+    padding-bottom: 3rem!important;
+}
+
+  
+  .cls-tg {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .cnt-nt {
+    max-width: 900px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 70px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* .form {
+    display: flex;
+    flex-direction: column;
+  } */
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: rgb(112, 164, 17);
+  }
+  
+  .input-group input {
+    padding: 10px;
+    color: #2a2a2a;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .cnt-nt .contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cnt-nt .contact-form button:hover {
+    background-color: #0056b3;
+  }
+
+  /* El resto del CSS se mantiene igual */
+
+  .colft {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .colft .input-group {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  #donarFormulario {
+    margin-left: 30px;
+    padding: 45px 30px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+
+
+
+  /* Estilos para la parte informativa de donar */
+
+  .bty_content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .heades {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .heades h2 {
+    color: rgb(112, 164, 17);
+    text-decoration: underline;
+  }
+  .donation-info {
+    text-align: center;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-out;
+  }
+  .donation-info p {
+    margin: 10px 0;
+    color: rgb(112, 164, 17); 
+    font-size: 18px;
+  }
+  .payment-methods {
+    text-align: center;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s 0.5s ease-out;
+  }
+
+  .payment-methods p{
+    color: rgb(38, 140, 14);
+    font-weight: bold;
+    font-size: 19px;
+  } 
+
+  .payment-methods img {
+    max-width: 100px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+  }
+  .payment-methods img:hover {
+    transform: scale(1.1);
+  }
+  .cta {
+    text-align: center;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s 1s ease-out;
+  }
+
+  .cta p{
+    color: rgb(112, 164, 17);
+    font-size: 18px;
+  }
+
+  .cta a {
+    text-decoration: none;
+    color: rgb(186, 203, 20); /* Color amarillo */
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  .cta a:hover {
+    color: rgb(112, 164, 17); /* Cambio a color verde en hover */
+  }
+  .contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+    animation: fadeInUpF 1s 1.5s ease-out;
+  }
+
+  .contact-info p{
+    color: rgb(112, 164, 17);
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  .highlight {
+    color: rgb(186, 203, 20); /* Color amarillo */
+    font-weight: bold;
+  }
+
+  @keyframes fadeInUpF {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  
+  
+
+
+
+
