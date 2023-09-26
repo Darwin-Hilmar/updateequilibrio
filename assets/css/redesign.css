@@ -95,8 +95,39 @@
 }
 
 .ban_fondo{
-    background-image:  url(../redesign/maskgroup.png);
+    background-image:  url(../redesign/programa4.JPG);
+    position: relative;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Esto hace que la sección ocupe el 100% del alto de la pantalla */
+    text-align: center; /* Para centrar el contenido de texto y botón */
+    color: #fff; 
+    margin-top: 75px;
 }
+
+.txt-bann {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.ban_fondo p {
+    font-size: 50px;
+    margin-bottom: 20px; 
+    
+}
+
+/* .ban_fondo button {
+    padding: 10px 20px;
+    font-size: 18px;
+} */
+
+/* .content-ban{
+    margin: 200px;
+} */
 
 .fa-xl{
     font-size: 70px;
@@ -666,6 +697,10 @@ reservation
         height: 700px; 
         fill: none;
     }
+
+    .txt-bann {
+        width: 30%;
+    }
   }
 
   @media  screen and (min-width: 767px) and (max-width: 1023px) { /* For tablet */
@@ -742,6 +777,9 @@ reservation
         width: 769px;
         height: 633px; 
         fill: none;
+    }
+    .txt-bann {
+        width: 50%;
     }
     
   }
@@ -825,5 +863,13 @@ reservation
         height: 433px; 
         fill: none;
         margin: 10px;
+    }
+
+    .txt-bann {
+        width: 90%;
+    }
+
+    .txt-bann p{
+        font-size: 40px;
     }
   }

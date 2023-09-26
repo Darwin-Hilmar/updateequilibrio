@@ -1,35 +1,9 @@
-<section class="ban_fondo">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-5 justify-content-center align-items-center">
-                <div class="ban_txt">
-                    <p>Estamos para ayudarte en los que necesites</p>
-                </div> 
-            </div>
-            <!-- <div class="col-md-7 d-flex justify-content-center align-items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="769" height="833" viewBox="0 0 769 833" fill="none">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M419.455 20C419.455 8.9543 428.409 0 439.455 0H749C760.046 0 769 8.95428 769 20V331.233C769 342.279 760.046 351.233 749 351.233H719.091C708.045 351.233 699.091 360.188 699.091 371.233V682.466C699.091 693.512 690.137 702.466 679.091 702.466H369.545C358.5 702.466 349.545 711.421 349.545 722.466V812.423C349.545 823.468 340.591 832.423 329.545 832.423H20C8.95429 832.423 0 823.468 0 812.423V501.189C0 490.144 8.95431 481.189 20 481.189H116.323C127.368 481.189 136.323 472.235 136.323 461.189V195.617C136.323 184.571 145.277 175.617 156.323 175.617H399.455C410.5 175.617 419.455 166.662 419.455 155.617V20Z" fill="#D9D9D9"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M419.455 20C419.455 8.9543 428.409 0 439.455 0H749C760.046 0 769 8.95428 769 20V331.233C769 342.279 760.046 351.233 749 351.233H719.091C708.045 351.233 699.091 360.188 699.091 371.233V682.466C699.091 693.512 690.137 702.466 679.091 702.466H369.545C358.5 702.466 349.545 711.421 349.545 722.466V812.423C349.545 823.468 340.591 832.423 329.545 832.423H20C8.95429 832.423 0 823.468 0 812.423V501.189C0 490.144 8.95431 481.189 20 481.189H116.323C127.368 481.189 136.323 472.235 136.323 461.189V195.617C136.323 184.571 145.277 175.617 156.323 175.617H399.455C410.5 175.617 419.455 166.662 419.455 155.617V20Z" fill="url(#pattern0)"/>
-                    <defs>
-                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                            <use xlink:href="#image0_234_44" transform="matrix(0.000856388 0 0 0.000791139 -0.311856 0)"/>
-                        </pattern>
-                        <image id="image0_234_44" width="1896" height="1264" xlink:href="/assets/redesign/imgbanner.jpg"/>
-                    </defs>
-                </svg>
-            </div> -->
-            <div class="col-md-7 d-flex justify-content-center align-items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="ban_img" viewBox="0 0 769 833">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M419.455 20C419.455 8.9543 428.409 0 439.455 0H749C760.046 0 769 8.95428 769 20V331.233C769 342.279 760.046 351.233 749 351.233H719.091C708.045 351.233 699.091 360.188 699.091 371.233V682.466C699.091 693.512 690.137 702.466 679.091 702.466H369.545C358.5 702.466 349.545 711.421 349.545 722.466V812.423C349.545 823.468 340.591 832.423 329.545 832.423H20C8.95429 832.423 0 823.468 0 812.423V501.189C0 490.144 8.95431 481.189 20 481.189H116.323C127.368 481.189 136.323 472.235 136.323 461.189V195.617C136.323 184.571 145.277 175.617 156.323 175.617H399.455C410.5 175.617 419.455 166.662 419.455 155.617V20Z" fill="#D9D9D9"/>
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M419.455 20C419.455 8.9543 428.409 0 439.455 0H749C760.046 0 769 8.95428 769 20V331.233C769 342.279 760.046 351.233 749 351.233H719.091C708.045 351.233 699.091 360.188 699.091 371.233V682.466C699.091 693.512 690.137 702.466 679.091 702.466H369.545C358.5 702.466 349.545 711.421 349.545 722.466V812.423C349.545 823.468 340.591 832.423 329.545 832.423H20C8.95429 832.423 0 823.468 0 812.423V501.189C0 490.144 8.95431 481.189 20 481.189H116.323C127.368 481.189 136.323 472.235 136.323 461.189V195.617C136.323 184.571 145.277 175.617 156.323 175.617H399.455C410.5 175.617 419.455 166.662 419.455 155.617V20Z" fill="url(#pattern0)"/>
-                    <defs>
-                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                            <use xlink:href="#image0_234_44" transform="matrix(0.000856388 0 0 0.000791139 -0.311856 0)"/>
-                        </pattern>
-                        <image id="image0_234_44" width="1896" height="1264" xlink:href="/assets/redesign/imgbanner.jpg"/>
-                    </defs>
-                </svg>
-            </div>
 
+<section class="ban_fondo">
+    <div class="content-bn">
+        <div class=" container txt-bann">
+            <p>Transformamos la salud mental</p>
+            <button id="btn-donar-open" class="btn btn_apoya">Súmate</button>
         </div>
+    </div>
 </section>
