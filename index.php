@@ -9,6 +9,10 @@
 
     <?php include 'includes/views/descripcion.php'; ?>
 
+    <?php include 'includes/views/programasindex.php'; ?>
+
+    <?php include 'includes/views/viewCR.php'; ?>
+
     <?php include 'includes/views/servicios.php'; ?>
 
     <?php include 'includes/views/impacto.php'; ?>

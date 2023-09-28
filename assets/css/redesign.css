@@ -120,6 +120,14 @@
     
 }
 
+
+.responsive-img {
+    max-width: 50%; 
+    height: auto; 
+    border-radius: 20px;
+}
+
+
 /* .ban_fondo button {
     padding: 10px 20px;
     font-size: 18px;
@@ -128,6 +136,23 @@
 /* .content-ban{
     margin: 200px;
 } */
+
+.contenido-centro img{
+    max-width: 20%;
+    height: auto; 
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.contenido-centro h4{
+    color: #76A929;
+    font-size: 30px;
+}
+
+.text-container{
+    margin: 20px;
+    text-align: justify;
+}
 
 .fa-xl{
     font-size: 70px;
@@ -243,9 +268,8 @@
 
 .card p{
     color: white;
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
-    margin-top: 10px;
 }
 
 .card h4{
@@ -256,7 +280,8 @@
 
 .card{
     background-color: #76A929;
-    /* margin: 20px; */
+    margin: 20px; 
+    border-radius: 10px;
 }
 
 .card-image{
@@ -272,6 +297,50 @@
 }
 
 
+.image-reserva{
+    background-image: url('../redesign/viewCita.png');
+
+}
+
+.image-sumate{
+    background-image: url('../redesign/viewSumate.png');
+
+}
+
+.image-reserva,
+.image-sumate {
+    flex: 1; /* Distribuir el espacio disponible entre las dos imágenes */
+    background-size: cover; /* Ajustar la imagen al tamaño de su contenedor */
+    background-position: center center; /* Centrar la imagen horizontal y verticalmente */
+    height: 500px; /* Altura deseada para las imágenes */
+}
+
+.center-it {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.image-reserva p{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.image-sumate p{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.center-it button{
+    font-weight: bold;
+    font-size: 25px;
+}
 /* SLIDER */
 
 .carrusel{
@@ -344,6 +413,19 @@
 .btn_apoya:hover{
     background-color: white;
     color: #76A929;
+}
+
+.btn_reserva{
+    background-color: white;
+    color: rgb(122,168,17);
+    font-size: 1.2rem;
+    border-radius: 15px;
+    padding: 1px 30px;
+}
+
+.btn_reserva:hover{
+    background-color: rgb(122,168,17);
+    color: white;
 }
 
 /* AREA DE PROGRAMAS */
@@ -701,6 +783,10 @@ reservation
     .txt-bann {
         width: 30%;
     }
+
+    .display-it{
+        display: flex;
+    }
   }
 
   @media  screen and (min-width: 767px) and (max-width: 1023px) { /* For tablet */
@@ -780,6 +866,10 @@ reservation
     }
     .txt-bann {
         width: 50%;
+    }
+
+    .display-it{
+        display: flex;
     }
     
   }
@@ -872,4 +962,28 @@ reservation
     .txt-bann p{
         font-size: 40px;
     }
+
+    .display-it{
+        /* display: flex; */
+        flex-direction: column;
+    }
+
+    /* .image-reserva p{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        margin: 10px;
+    }
+    
+    .image-sumate p{
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+        margin: 10px;
+    }
+    
+    .center-it button{
+        font-weight: bold;
+        font-size: 20px;
+    } */
   }
