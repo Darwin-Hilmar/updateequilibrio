@@ -1,19 +1,7 @@
 
      <footer class="footer_redis">
         <div class="footer-content">
-            <div class="footer-text">
-                <h1>Momento de cambio</h1>
-            </div>
-            <div class="footer-images">
-                <img src="/assets/redesign/Rectangle 23.png" alt="Imagen 1">
-                <img src="/assets/redesign/Rectangle 24.png" alt="Imagen 2">
-                <img src="/assets/redesign/Rectangle 25.png" alt="Imagen 3">
-                <img src="/assets/redesign/Rectangle 26.png" alt="Imagen 3">
-                <img src="/assets/redesign/Rectangle 27.png" alt="Imagen 3">
-                <img src="/assets/redesign/Rectangle 28.png" alt="Imagen 3">
-                <img src="/assets/redesign/Rectangle 29.png" alt="Imagen 3">
-                <img src="/assets/redesign/Rectangle 30.png" alt="Imagen 4">
-            </div>
+            
             <div class="footer-logo">
                 <img src="/assets/img/Logo png en blanco.png" alt="equilibrio">
             </div>

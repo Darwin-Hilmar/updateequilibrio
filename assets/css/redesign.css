@@ -5,11 +5,25 @@
     padding: 20px 0;
 }
 
+.blogs_redis {
+    background-color: #76A929;
+    text-align: center;
+    /* padding: 20px 0px; */
+}
+
 .footer-content {
     /* display: flex; */
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.blogs-content {
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 20px; */
 }
 
 .footer-text h1 {
@@ -106,6 +120,30 @@
     margin-top: 75px;
 }
 
+.equipo_fondo{
+    background-image:  url(../redesign/maskgroup.png);
+    position: relative;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Esto hace que la sección ocupe el 100% del alto de la pantalla */
+    text-align: center; /* Para centrar el contenido de texto y botón */
+    color: #fff; 
+}
+
+.card-name{
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.4em;
+}
+
+.card-charge{
+    color: rgb(238, 235, 235);
+    text-align: left;
+    font-size: 1.0em;
+}
+
 .txt-bann {
     position: absolute;
     top: 50%;
@@ -120,6 +158,41 @@
     
 }
 
+.icon-container{
+    margin: 8px;
+    color: white;
+    text-align: center;
+}
+
+.card-titleBlog{
+    text-align: center;
+    color: #76A929;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.card-textBlog{
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.card-autorBlog{
+    color: #76A929;
+    font-size: small;
+    margin: 5px;
+}
+
+#items-blog .card{
+    margin: 10px;
+    border-radius: 10px;
+    border: #76A929 2px solid;
+}
+
+#items-blog{
+    margin: 20px;
+}
 
 .responsive-img {
     max-width: 50%; 
@@ -266,19 +339,19 @@
     margin: 40px;
 }
 
-.card p{
+#items-base .card p{
     color: white;
     font-size: 25px;
     text-align: center;
 }
 
-.card h4{
+#items-base .card h4{
     color: white;
     text-align: center;
     font-weight: bold;
 }
 
-.card{
+#items-base .card{
     background-color: #76A929;
     margin: 20px; 
     border-radius: 10px;
@@ -295,6 +368,31 @@
     width: 50%;
     object-fit: cover;
 }
+
+/* CARD IMAGES */
+#reconocimientos .card p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#reconocimientos .card h4{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#reconocimientos .card{
+    background-color: #76A929;
+    /* margin: 20px; */
+}
+
+.equipo_fondo .card{
+    background-color: #76A929;
+    margin: 10px;
+}
+
 
 
 .image-reserva{
@@ -341,6 +439,10 @@
     font-weight: bold;
     font-size: 25px;
 }
+
+
+
+
 /* SLIDER */
 
 .carrusel{

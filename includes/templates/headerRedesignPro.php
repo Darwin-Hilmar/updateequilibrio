@@ -68,10 +68,11 @@
                             <li class="scroll-to-section"><a href="/" class="active">Inicio</a></li>
                             <li class="scroll-to-section"><a href="programas.php">Programas</a></li>
                             <li class="scroll-to-section"><a href="index.php#cita">Psicohelp</a></li>
+                            <li class="scroll-to-section"><a href="blog.php">Blog</a></li>
 
                             <li class="scroll-to-section">
                                 <a href="#">
-                                    <button  id="btn-donar-open" class="btn btn_apoya">Apoyar</button>
+                                    <button  id="btn-donar-open" class="btn btn_apoya">Súmate</button>
                                 </a>
                             </li>
 

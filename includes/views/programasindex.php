@@ -1,4 +1,4 @@
-<section>
+<section id="items-base">
     <div class="info_text">
         <p>A través de diversos programas</p>
     </div> 

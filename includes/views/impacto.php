@@ -1,6 +1,6 @@
 <section class="bk_color">
     <div class="imp_text">
-        <p>Impactando con nuestra atención psicologica</p>
+        <p>Impactando con nuestra atención psicológica</p>
     </div> 
     <div class="container info_container">
         <div class="container impacto_container">

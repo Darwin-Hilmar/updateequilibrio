@@ -1,6 +1,6 @@
 <section>
     <div class="info_text">
-        <p>Aliados que confian en nosotros</p>
+        <p>Aliados que confían en nosotros</p>
     </div>
     <div class="container">
         <div class="carrusel">

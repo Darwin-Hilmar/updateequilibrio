@@ -1,4 +1,4 @@
-    <section>
+    <section id="reconocimientos">
         <div class="info_text">
             <p>Reconocimientos</p>
         </div> 
