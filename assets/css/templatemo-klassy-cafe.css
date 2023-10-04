@@ -180,7 +180,7 @@ header
 ---------------------------------------------
 */
 
-.background-header {
+/* .background-header {
   background-color: #fff;
   height: 80px!important;
   position: fixed!important;
@@ -240,7 +240,6 @@ header
   line-height: 95px;
 }
 .logo_eq{
-  /*margin-bottom: 20px;*/
   text-align: center;
 }
 
@@ -502,9 +501,9 @@ header
 
 .header-area.header-sticky .nav li a.active {
   color: rgb(38, 140, 14);
-}
+} */
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-left: 12px;
     padding-right: 12px;
@@ -617,7 +616,7 @@ header
   .header-area .main-nav .nav {
     display: flex !important;
   }
-}
+} */
 
 
 /*

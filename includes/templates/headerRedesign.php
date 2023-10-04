@@ -53,17 +53,16 @@
     <!-- ***** Preloader End ***** -->
 
     <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
+    <header class="header-area">
         <div class="container">
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-12">
                     <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
+
                         <a href="/" class="logo_eq">
                             <img src="/assets/img/Logo Equilibrio.png" width="170px"  class="img-logo">
                         </a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
+
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="/" class="active">Inicio</a></li>
                             <li class="scroll-to-section"><a href="programas.php">Programas</a></li>
@@ -95,10 +94,28 @@
                         <a class='menu-trigger'>
                             <span>Menu</span>
                         </a>
-                        <!-- ***** Menu End ***** -->
+
                     </nav>
                 </div>
-            </div>
+            </div> -->
+            <nav>
+                <input type="checkbox" id="toogle">
+                <div class="logo">
+                    <img src="/assets/redesign/logoEQ.png" alt="Equilibrio">
+                </div>
+                <ul class="list-nav">
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="programas.php">Programas</a></li>
+                    <li><a href="#">Psicohelp</a></li>
+                    <li><a href="blog.php">Blog</a></li>
+                    <li><button class="btn btn_apoya">Súmate</button></li>
+                </ul>
+                <label for="toogle" class="icon-bars">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </label>
+            </nav>
         </div>
     </header><br>   
     <!-- ***** Header Area End ***** -->

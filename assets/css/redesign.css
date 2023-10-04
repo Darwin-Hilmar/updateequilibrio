@@ -1,4 +1,135 @@
 
+nav{
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding: 0 5%;
+    height: 90px;
+    background-color: white;
+}
+
+nav .logo{
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-area .logo img{
+    width: 25%;
+    max-width: 100%;
+    height: auto;
+}
+
+nav .list-nav{
+    float: right;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .list-nav li{
+    list-style: none;
+    padding: 0;
+}
+
+nav .list-nav a{
+    display: block;
+    padding: 15px 15px; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(119,169,40);
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+nav .list-nav a:hover{
+    color: rgb(46, 163, 17);
+    /* text-decoration: underline; */
+}
+
+#toogle{
+    position: absolute;
+    top: -100px;
+} 
+
+nav .icon-bars{
+    display: none;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+nav .icon-bars .line{
+    width: 30px;
+    height: 5px;
+    background-color: #2a2a2a;
+    margin: 5px;
+    border-radius: 3px;
+    transition: all .3s ease-in-out;
+}
+
+
+@media(max-width: 768px){
+
+    /* nav {
+        background-color: #f8f8f3;
+    } */
+
+    nav .logo{
+        float: none;
+        width: auto;
+        justify-content: center;
+        display: none;
+    }
+
+    nav .list-nav{
+        float: none;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        right: 0;
+        top: 90px;
+        bottom: 90%;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #f8f8f3;
+        overflow: hidden;
+        transition: all .5s ease-in-out;
+    }
+
+    nav .list-nav a{
+        font-size: 25px;
+        padding: 0;
+    }
+
+    nav .btn_apoya{
+        margin-top: 60px;
+    }
+
+    nav :checked ~ .list-nav{
+        bottom: 0;
+    }
+
+    nav .icon-bars {
+        display: block;
+    }
+}
+
+
+
+
 .footer_redis {
     background-color: #76A929;
     text-align: center;
@@ -111,13 +242,13 @@
 .ban_fondo{
     background-image:  url(../redesign/programa4.JPG);
     position: relative;
-    background-size: 100% 100%;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh; /* Esto hace que la sección ocupe el 100% del alto de la pantalla */
     text-align: center; /* Para centrar el contenido de texto y botón */
     color: #fff; 
-    margin-top: 75px;
+    /* margin-top: 75px; */
 }
 
 .equipo_fondo{
@@ -211,21 +342,23 @@
 } */
 
 .contenido-centro img{
-    max-width: 20%;
+    max-width: 65%;
     height: auto; 
-    border-radius: 10px;
-    margin: 15px;
+    border-radius: 15px;
+    /* margin: 15px; */
 }
 
 .contenido-centro h4{
     color: #76A929;
     font-size: 30px;
-}
-
-.text-container{
-    margin: 20px;
     text-align: justify;
 }
+
+
+/* .text-container{
+    margin: 20px;
+    text-align: justify;
+} */
 
 .fa-xl{
     font-size: 70px;
@@ -354,7 +487,7 @@
 #items-base .card{
     background-color: #76A929;
     margin: 20px; 
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .card-image{
@@ -377,6 +510,7 @@
     margin-top: 10px;
 }
 
+
 #reconocimientos .card h4{
     color: white;
     text-align: center;
@@ -386,6 +520,7 @@
 #reconocimientos .card{
     background-color: #76A929;
     /* margin: 20px; */
+    border-radius: 20px;
 }
 
 .equipo_fondo .card{
@@ -407,10 +542,10 @@
 
 .image-reserva,
 .image-sumate {
-    flex: 1; /* Distribuir el espacio disponible entre las dos imágenes */
-    background-size: cover; /* Ajustar la imagen al tamaño de su contenedor */
-    background-position: center center; /* Centrar la imagen horizontal y verticalmente */
-    height: 500px; /* Altura deseada para las imágenes */
+    flex: 1;
+    background-size: cover; 
+    background-position: center center;
+    height: 500px; 
 }
 
 .center-it {
@@ -425,14 +560,14 @@
     color: white;
     font-size: 40px;
     font-weight: bold;
-    margin: 20px;
+    /* margin: 20px; */
 }
 
 .image-sumate p{
     color: white;
     font-size: 45px;
     font-weight: bold;
-    margin: 20px;
+    /* margin: 20px; */
 }
 
 .center-it button{
@@ -486,8 +621,17 @@
 }
 
 
-.rounded_size{
-    border-radius: 10px;
+.rounded-custom{
+    border-radius: 20px;
+}
+
+.rounded-custom img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.rounded-card{
+    border-radius: 10px; 
 }
 
 
@@ -507,9 +651,10 @@
 .btn_apoya{
     background-color: rgb(122,168,17);
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     border-radius: 15px;
     padding: 1px 30px;
+    font-weight: bold;
 }
 
 .btn_apoya:hover{
@@ -889,6 +1034,10 @@ reservation
     .display-it{
         display: flex;
     }
+
+    .top-cat{
+        margin-top: 10px;
+    }
   }
 
   @media  screen and (min-width: 767px) and (max-width: 1023px) { /* For tablet */
@@ -973,24 +1122,32 @@ reservation
     .display-it{
         display: flex;
     }
+
+    .top-cat{
+        margin-top: 15px;
+    }
     
   }
 
   @media  screen and (max-width: 767px) { /* For smartphone */
     .info_container{
-        width: 100%;
+        width: 90%;
+    }
+
+    .contenido-centro img{
+        max-width: 90%;
     }
 
     .impacto_container{
-        width: 100%;
+        width: 90%;
     }
 
     .cita_container{
-        width: 100%;
+        width: 90%;
     }
 
     .service_container{
-        width: 100%;
+        width: 90%;
     }
 
     /* Esto es parte del footer */
@@ -1068,6 +1225,63 @@ reservation
     .display-it{
         /* display: flex; */
         flex-direction: column;
+    }
+
+    .contenido-centro h4{
+        font-size: 25px;
+    }
+    .contenido-centro img{
+        max-width: 90%;
+    }
+
+    .top-cat{
+        margin-top: 30px;
+    }
+
+    .fa-xl{
+        font-size: 40px;
+        margin: 10px;
+        padding-bottom: 20px;
+    }
+    
+    .service_container h2{
+        color: #76A929; 
+        font-weight: bold; 
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    .service_container h4{
+        text-align: center; 
+        color: #76A929;
+        font-size: 18px;
+    }
+
+
+    .size_niños{
+        font-size: 55px;
+        margin: 10px;
+    }
+    
+    .size_adolecentes{
+        font-size: 75px;
+        margin: 10px;
+    }
+    
+    .size_adultos{
+        font-size: 105px;
+        margin: 10px;
+    }
+    .bk_color h2{
+        font-weight: bold;
+        text-align: center;
+        font-size: 23px;
+    }
+    
+    .bk_color h6{
+        text-align: center;
+        font-size: 14px;
+        
     }
 
     /* .image-reserva p{

@@ -5,21 +5,21 @@
     <div class="container info_container">
         <div class="container impacto_container">
             <div class="row">
-                <div class="col-md-4 col-6 align-self-end justify-content-center align-items-center size_icon">
+                <div class="col-md-4 col-4 align-self-end justify-content-center align-items-center size_icon">
                     <div class="d-flex justify-content-center align-items-center size_niños">
                         <i class="fa-solid fa-person"></i>
                     </div> 
                     <h2>0.18%</h2>
                     <h6>Niños menores de 11 años</h6>
                 </div>
-                <div class="col-md-4 col-6 align-self-end justify-content-center align-items-center size_icon">
+                <div class="col-md-4 col-4 align-self-end justify-content-center align-items-center size_icon">
                     <div class="d-flex justify-content-center align-items-center size_adolecentes">
                         <i class="fa-solid fa-person"></i>  
                     </div>
                     <h2>26.30%</h2>
-                    <h6>Adolecentes de 12 a 18 años</h6>
+                    <h6>Adolecentes entre los 12 a 18 años</h6>
                 </div>
-                <div class="col-md-4 col-6 col-12 align-self-end justify-content-center align-items-center size_icon">
+                <div class="col-md-4 col-4 align-self-end justify-content-center align-items-center size_icon">
                     <div class="d-flex justify-content-center align-items-center size_adultos">
                         <i class="fa-solid fa-person"></i>
                     </div>

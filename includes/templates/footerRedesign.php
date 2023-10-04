@@ -8,11 +8,11 @@
             <div class="footer-contact">
                 <div class="contact-item">
                     <i class="fa-solid fa-mobile-screen"></i>
-                    <span>+51 952638546</span>
+                    <span>+51 977721046</span>
                 </div>
                 <div class="contact-item">
                     <i class="fas fa-envelope"></i>
-                    <span>correo@example.com</span>
+                    <span>contacto@equilibrio.org.pe</span>
                 </div>
             </div>
             <div class="footer-social">
