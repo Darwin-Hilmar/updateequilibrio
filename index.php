@@ -23,7 +23,7 @@
 
     <?php include 'includes/views/reconocimientos.php'; ?>
 
-    <?php include 'includes/views/blogs.php'; ?>
+    <?php include 'includes/views/blogsWeb.php'; ?>
 
     <?php include 'includes/views/equipo.php'; ?>
 

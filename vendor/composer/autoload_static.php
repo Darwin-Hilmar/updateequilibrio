@@ -30,7 +30,9 @@ class ComposerStaticInit9a8bfacc021ec6555e922bc2b351c112
         ),
         'M' => 
         array (
+            'Model\\' => 6,
             'Masterminds\\' => 12,
+            'MVC\\' => 4,
         ),
         'I' => 
         array (
@@ -50,9 +52,9 @@ class ComposerStaticInit9a8bfacc021ec6555e922bc2b351c112
             'Dotenv\\' => 7,
             'Dompdf\\' => 7,
         ),
-        'A' => 
+        'C' => 
         array (
-            'App\\' => 4,
+            'Controllers\\' => 12,
         ),
     );
 
@@ -90,9 +92,17 @@ class ComposerStaticInit9a8bfacc021ec6555e922bc2b351c112
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
+        'Model\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/models',
+        ),
         'Masterminds\\' => 
         array (
             0 => __DIR__ . '/..' . '/masterminds/html5/src',
+        ),
+        'MVC\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/',
         ),
         'Intervention\\Image\\' => 
         array (
@@ -118,9 +128,9 @@ class ComposerStaticInit9a8bfacc021ec6555e922bc2b351c112
         array (
             0 => __DIR__ . '/..' . '/dompdf/dompdf/src',
         ),
-        'App\\' => 
+        'Controllers\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/classes',
+            0 => __DIR__ . '/../..' . '/controllers',
         ),
     );
 

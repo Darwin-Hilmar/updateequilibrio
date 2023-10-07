@@ -2,7 +2,7 @@
 
     require 'includes/app.php';
 
-    includeTemplate('headerRedesignPro');
+    includeTemplate('headerRedesign');
 ?>
 
 <section >

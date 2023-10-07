@@ -2,43 +2,31 @@
 
     require 'includes/app.php';
 
-    includeTemplate('headerRedesignPro');
+    use Model\Blog;
+    $id = validarORedireccionar('/');
+
+    // Obtener los datos del blog
+    $blog = Blog::find($id);
+
+    includeTemplate('headerRedesign');
 ?>
 
-<section id="items-blog">
+<section id="individual-blog">
     <div class="container-fluid">
-        <div class="card-group">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-titleBlog">Psicoeducación</h5>
-                    <h6 class="card-textBlog">Mediante la preparación a docentes para prevención sexual y otros temas importantes en las escuelas a alumnos de 1° a 5° de secundaria en los colegios.</h6>
-                    <small class="card-autorBlog">Autor: Persona</small>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-titleBlog">Psicoeducación</h5>
-                    <h6 class="card-textBlog">Mediante la preparación a docentes para prevención sexual y otros temas importantes en las escuelas a alumnos de 1° a 5° de secundaria en los colegios.</h6>
-                    <small class="card-autorBlog">Autor: Persona</small>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-titleBlog">Psicoeducación</h5>
-                    <h6 class="card-textBlog">Mediante la preparación a docentes para prevención sexual y otros temas importantes en las escuelas a alumnos de 1° a 5° de secundaria en los colegios.</h6>
-                    <small class="card-autorBlog">Autor: Persona</small>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-titleBlog">Psicoeducación</h5>
-                    <h6 class="card-textBlog">Mediante la preparación a docentes para prevención sexual y otros temas importantes en las escuelas a alumnos de 1° a 5° de secundaria en los colegios.</h6>
-                    <small class="card-autorBlog">Autor: Persona</small>
-                </div>
-            </div>
+        <div class="title-blog">
+            <p><?php echo $blog->titulo; ?></p>
+            <h6><?php echo $blog->autor; ?></h6>
+        </div>
+        <div class="text-blog">
+            <p><?php echo $blog->descripcion; ?></p>
+        </div>
+        <div class="blog-image">
+            <img src="/assets/redesign/programa1.png"  alt="blog equilibrio">
+            <!-- /imagenes/<?php 
+            // echo $blog->imagen; 
+            ?> -->
         </div>
     </div>
-</section>
 
 <?php
     includeTemplate('footerRedesign');

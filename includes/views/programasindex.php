@@ -4,7 +4,7 @@
     </div> 
     <div class="container-fluid">
         <div class="card-group align-items-center justify-content-center">
-            <div class="card rounded-card">
+            <div class="card rounded-card d-flex">
                 <img src="/assets/redesign/programaVE.png"  alt="Viaja con equilibrio">
                 <div class="card-body">
                     <p class="card-text">Viaja con Equilibrio</p>

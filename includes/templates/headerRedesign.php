@@ -107,7 +107,7 @@
                     <li><a href="/">Inicio</a></li>
                     <li><a href="programas.php">Programas</a></li>
                     <li><a href="#">Psicohelp</a></li>
-                    <li><a href="blog.php">Blog</a></li>
+                    <li><a href="blogs.php">Blog</a></li>
                     <li><button class="btn btn_apoya">Súmate</button></li>
                 </ul>
                 <label for="toogle" class="icon-bars">
