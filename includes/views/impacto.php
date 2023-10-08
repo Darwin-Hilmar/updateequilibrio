@@ -3,29 +3,30 @@
         <p>Impactando con nuestra atención psicológica</p>
     </div> 
     <div class="container info_container">
-        <div class="container impacto_container">
-            <div class="row">
-                <div class="col-md-4 col-4 align-self-end justify-content-center align-items-center size_icon">
-                    <div class="d-flex justify-content-center align-items-center size_niños">
-                        <i class="fa-solid fa-person"></i>
-                    </div> 
-                    <h2>0.18%</h2>
-                    <h6>Niños menores de 11 años</h6>
-                </div>
-                <div class="col-md-4 col-4 align-self-end justify-content-center align-items-center size_icon">
-                    <div class="d-flex justify-content-center align-items-center size_adolecentes">
-                        <i class="fa-solid fa-person"></i>  
+        <div class="container-fluid impacto_container">
+            <div class="row align-items-center">
+                <div class="carrusel carrusel-servicios">
+                    <div class="col-md-4 col-4 align-self-end justify-content-center align-items-center size_icon mb-con">
+                        <div class="d-flex justify-content-center align-items-center size_niños">
+                            <i class="fa-solid fa-person"></i>
+                        </div> 
+                        <h2>0.18%</h2>
+                        <h6>Niños menores de 11 años</h6>
                     </div>
-                    <h2>26.30%</h2>
-                    <h6>Adolecentes entre los 12 a 18 años</h6>
-                </div>
-                <div class="col-md-4 col-4 align-self-end justify-content-center align-items-center size_icon">
-                    <div class="d-flex justify-content-center align-items-center size_adultos">
-                        <i class="fa-solid fa-person"></i>
+                    <div class="col-md-4 col-4 align-self-end justify-content-center align-items-center size_icon mb-sin">
+                        <div class="d-flex justify-content-center align-items-center size_adolecentes">
+                            <i class="fa-solid fa-person"></i>  
+                        </div>
+                        <h2>26.30%</h2>
+                        <h6>Adolecentes de 12 a 18 años</h6>
                     </div>
-                    <h2>73.52%</h2>
-                    <h6>Adultos de 19 años a más</h6>
-
+                    <div class="col-md-4 col-4 align-self-end justify-content-center align-items-center size_icon">
+                        <div class="d-flex justify-content-center align-items-center size_adultos">
+                            <i class="fa-solid fa-person"></i>
+                        </div>
+                        <h2>73.52%</h2>
+                        <h6>Adultos de 19 años a más</h6>
+                    </div>
                 </div>
             </div>
         </div>

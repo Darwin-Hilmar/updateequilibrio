@@ -1,5 +1,5 @@
 
-    const carrusel = document.querySelector(".carrusel");
+    const carrusel = document.querySelector(".carrusel-alianzas");
     
     let intervalo = null;
     let maxScrollLeft = carrusel.scrollWidth -  carrusel.clientWidth;
@@ -26,4 +26,9 @@
     carrusel.addEventListener("mouseout", () => { start(); });
 
     start();
+
+
+    
+
+
 

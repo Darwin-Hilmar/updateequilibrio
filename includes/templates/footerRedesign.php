@@ -55,6 +55,54 @@
 
     <!-- Global Init -->
     <script src="/assets/js/custom.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.carrusel-programa').slick({
+                infinite: true,
+                slidesToShow: 4, 
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                draggable: true, 
+                swipeToSlide: true, 
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1 
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+     
+    <script>
+        $(document).ready(function(){
+            $('.carrusel-servicios').slick({
+                infinite: true,
+                slidesToShow: 3, 
+                slidesToScroll: 0,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                draggable: true, 
+                swipeToSlide: true, 
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1 
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+   
 </body>
 
 </html>

@@ -38,7 +38,9 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/tareas.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/donar.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/redesign.css">
-    <link rel="stylesheet" type="text/css" href="/node_modules/sweetalert2/dist/sweetalert2.min.css">   
+    <link rel="stylesheet" type="text/css" href="/node_modules/sweetalert2/dist/sweetalert2.min.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>  
 </head>
 
 <body>

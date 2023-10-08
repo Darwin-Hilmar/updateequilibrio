@@ -157,7 +157,7 @@
 				'animating': [ 'busy' ],
 				'dragging': [ 'interacting' ]
 			}
-		};
+		}; 	
 
 		$.each([ 'onResize', 'onThrottledResize' ], $.proxy(function(i, handler) {
 			this._handlers[handler] = $.proxy(this[handler], this);
@@ -563,6 +563,7 @@
 
 		if (!overwrites) {
 			settings = $.extend({}, this.options);
+			settings = $.extend({}, this.options);
 		} else {
 			$.each(overwrites, function(breakpoint) {
 				if (breakpoint <= viewport && breakpoint > match) {
@@ -887,7 +888,7 @@
 
 	/**
 	 * Gets absolute position of the closest item for a coordinate.
-	 * @todo Setting `freeDrag` makes `closest` not reusable. See #165.
+	 * @todo Setting `freeDrag` makes `closest` not reusable.
 	 * @protected
 	 * @param {Number} coordinate - The coordinate in pixel.
 	 * @param {String} direction - The direction to check for the closest item. Ether `left` or `right`.
@@ -1842,7 +1843,6 @@
 		this._visible = !this._visible;
 
 		this._core.$element.toggleClass('owl-hidden', !this._visible);
-
 		this._visible && (this._core.invalidate('width') && this._core.refresh());
 	};
 
@@ -2072,7 +2072,7 @@
 		this._intervalId = null;
 		var refThis = this;
 
-		// These changes have been taken from a PR by gavrochelegnou proposed in #1575
+		// These changes have been taken from a PR by gavrochelegnou proposed in 
 		// and have been made compatible with the latest jQuery version
 		$(window).on('load', function() {
 			if (refThis._core.settings.autoHeight) {
@@ -2270,17 +2270,6 @@
 
 		if (url) {
 
-			/*
-					Parses the id's out of the following urls (and probably more):
-					https://www.youtube.com/watch?v=:id
-					https://youtu.be/:id
-					https://vimeo.com/:id
-					https://vimeo.com/channels/:channel/:id
-					https://vimeo.com/groups/:group/videos/:id
-					https://app.vzaar.com/videos/:id
-
-					Visual example: https://regexper.com/#(http%3A%7Chttps%3A%7C)%5C%2F%5C%2F(player.%7Cwww.%7Capp.)%3F(vimeo%5C.com%7Cyoutu(be%5C.com%7C%5C.be%7Cbe%5C.googleapis%5C.com)%7Cvzaar%5C.com)%5C%2F(video%5C%2F%7Cvideos%5C%2F%7Cembed%5C%2F%7Cchannels%5C%2F.%2B%5C%2F%7Cgroups%5C%2F.%2B%5C%2F%7Cwatch%5C%3Fv%3D%7Cv%5C%2F)%3F(%5BA-Za-z0-9._%25-%5D*)(%5C%26%5CS%2B)%3F
-			*/
 
 			id = url.match(/(http:|https:|)\/\/(player.|www.|app.)?(vimeo\.com|youtu(be\.com|\.be|be\.googleapis\.com|be\-nocookie\.com)|vzaar\.com)\/(video\/|videos\/|embed\/|channels\/.+\/|groups\/.+\/|watch\?v=|v\/)?([A-Za-z0-9._%-]*)(\&\S+)?/);
 
@@ -2963,8 +2952,7 @@
 	Navigation.Defaults = {
 		nav: false,
 		navText: [
-			'<span aria-label="' + 'Previous' + '">&#x2039;</span>',
-			'<span aria-label="' + 'Next' + '">&#x203a;</span>'
+			
 		],
 		navSpeed: false,
 		navElement: 'button type="button" role="presentation"',
@@ -3428,19 +3416,16 @@
 	}
 
 	if (tests.csstransitions()) {
-		/* jshint -W053 */
 		$.support.transition = new String(prefixed('transition'))
 		$.support.transition.end = events.transition.end[ $.support.transition ];
 	}
 
 	if (tests.cssanimations()) {
-		/* jshint -W053 */
 		$.support.animation = new String(prefixed('animation'))
 		$.support.animation.end = events.animation.end[ $.support.animation ];
 	}
 
 	if (tests.csstransforms()) {
-		/* jshint -W053 */
 		$.support.transform = new String(prefixed('transform'));
 		$.support.transform3d = tests.csstransforms3d();
 	}

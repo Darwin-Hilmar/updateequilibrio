@@ -29,13 +29,15 @@
             </div>
         </div>
         <div class="items_all">
-            <div class="items_flex">Intercambio cultural</div>
-            <div class="items_flex">Refuerzo segundo idioma</div>
-            <div class="items_flex">Herramientas digitales</div>
-            <div class="items_flex">Refuezo escolar</div>
-            <div class="items_flex">Intercambio socio cultural</div>
-            <div class="items_flex">Charlas vocacionales</div>
-            <div class="items_flex">Talleres de emprendimiento</div>
+            <div class="carrusel carrusel-programa">
+                <div class="items_flex">Intercambio cultural</div>
+                <div class="items_flex">Refuerzo segundo idioma</div>
+                <div class="items_flex">Herramientas digitales</div>
+                <div class="items_flex">Refuezo escolar</div>
+                <div class="items_flex">Intercambio socio cultural</div>
+                <div class="items_flex">Charlas vocacionales</div>
+                <div class="items_flex">Talleres de emprendimiento</div>
+            </div>
         </div>
         
 </section>

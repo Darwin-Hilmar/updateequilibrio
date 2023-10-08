@@ -27,55 +27,56 @@
                 <p>Equipo directivo</p>
             </div> 
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="equ-item d-flex">
-                        <div class="thumb">
-                            <img src="/assets/redesign/presidenta_ongd.png" alt="equipo">
+                <div class="carrusel carrusel-servicios">
+                    <div class="col-lg-4">
+                        <div class="equ-item d-flex">
+                            <div class="thumb">
+                                <img src="/assets/redesign/presidenta_ongd.png" alt="equipo">
+                            </div>
+                            <div class="cont-content d-flex">
+                                <div class="down-content">
+                                    <h4>María Cabanillas</h4>
+                                    <span>Presidenta de la ONG</span>
+                                    <div class="img-linkedin text-center">
+                                        <img src="/assets/redesign/linkedin.svg" alt="linkedin">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="cont-content d-flex">
-                            <div class="down-content">
-                                <h4>María Cabanillas</h4>
-                                <span>Presidenta de la ONG</span>
-                                <div class="img-linkedin text-center">
-                                    <img src="/assets/redesign/linkedin.svg" alt="linkedin">
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="equ-item d-flex">
+                            <div class="thumb">
+                                <img src="/assets/redesign/presidenta_ongd.png" alt="equipo">
+                            </div>
+                            <div class="cont-content d-flex">
+                                <div class="down-content">
+                                    <h4>María Cabanillas</h4>
+                                    <span>Presidenta de la ONG</span>
+                                    <div class="img-linkedin text-center">
+                                        <img src="/assets/redesign/linkedin.svg" alt="linkedin">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="equ-item d-flex">
+                            <div class="thumb">
+                                <img src="/assets/redesign/presidenta_ongd.png" alt="equipo">
+                            </div>
+                            <div class="cont-content d-flex">
+                                <div class="down-content">
+                                    <h4>María Cabanillas</h4>
+                                    <span>Presidenta de la ONG</span>
+                                    <div class="img-linkedin text-center">
+                                        <img src="/assets/redesign/linkedin.svg" alt="linkedin">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="equ-item d-flex">
-                        <div class="thumb">
-                            <img src="/assets/redesign/presidenta_ongd.png" alt="equipo">
-                        </div>
-                        <div class="cont-content d-flex">
-                            <div class="down-content">
-                                <h4>María Cabanillas</h4>
-                                <span>Presidenta de la ONG</span>
-                                <div class="img-linkedin text-center">
-                                    <img src="/assets/redesign/linkedin.svg" alt="linkedin">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="equ-item d-flex">
-                        <div class="thumb">
-                            <img src="/assets/redesign/presidenta_ongd.png" alt="equipo">
-                        </div>
-                        <div class="cont-content d-flex">
-                            <div class="down-content">
-                                <h4>María Cabanillas</h4>
-                                <span>Presidenta de la ONG</span>
-                                <div class="img-linkedin text-center">
-                                    <img src="/assets/redesign/linkedin.svg" alt="linkedin">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
             </div>
         </div>
     </section>

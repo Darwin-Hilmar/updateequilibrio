@@ -3,7 +3,7 @@
         <p>Aliados que confían en nosotros</p>
     </div>
     <div class="container">
-        <div class="carrusel">
+        <div class="carrusel carrusel-alianzas">
             <div class="carrusel-items">
                 <div class="carrusel-item">
                     <a href="https://www.sunass.gob.pe/version-anterior/" target="_blank"><img src="/assets/redesign/ed_sunass.png" alt="sunass" /></a>

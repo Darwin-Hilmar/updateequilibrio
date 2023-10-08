@@ -412,6 +412,14 @@ nav .icon-bars .line{
     /* text-align: center; */
 }
 
+.mb-con{
+    margin-top: 60px;
+}
+
+.mb-sin{
+    margin-top: 30px;
+}
+
 .items_all{
     margin: 10px;
     padding-top: 20px;
@@ -662,6 +670,11 @@ nav .icon-bars .line{
 .rounded-card{
     border-radius: 10px; 
 }
+.rounded-card img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;  
+}
+
 
 
 .equipo-center {
@@ -831,8 +844,8 @@ equs
     font-size: 18px;
 }
 .papers-programas img {
-	width: 150px;
-    height: 150px;
+	width: 160px;
+    height: 160px;
     object-fit: cover;
     background-size: cover;
 	margin: 0 auto;
@@ -1440,3 +1453,23 @@ reservation
         font-size: 20px;
     } */
   }
+ 
+.card {
+    text-align: center;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .slick-prev, .slick-next {
+        display: none !important; 
+    }
+    .slick-dots {
+        display: none !important; 
+    }
+    .slick-slide {
+        margin: 0 15px; 
+    }
+}
