@@ -64,7 +64,7 @@
         use PHPMailer\PHPMailer\PHPMailer;
         if($_SERVER['REQUEST_METHOD'] === 'POST'){
 
-            $alerta = null;
+            $alerta = true;
             $respuestas = $_POST['sumate'];
             
             // Crear una instancia PHPMailer
@@ -107,15 +107,17 @@
             $phpmailer->AltBody = 'Esto es texto alternativo sin HTML';
 
             // Enviar el mensaje
+            // if(!$phpmailer->send()){
+            //     $alerta = 'Hubo un Error... intente de nuevo';
+            // } else {
+            //     $alerta = 'Email enviado Correctamente';
+            // }
             if(!$phpmailer->send()){
-                $alerta = 'Hubo un Error... intente de nuevo';
+                $alerta = false;
             } else {
-                $alerta = 'Email enviado Correctamente';
+                $alerta = true;
             }
         }
-
-
-        includeTemplate('header');
     ?>
 
 
@@ -249,7 +251,7 @@
             <button id="btn-form-close">X</button>
             <div class="contact-form">
                 
-                <form id="contact" action="/" method="post">    
+                <form id="contact" action="index.php" method="post">    
                     <div class="row">
                         <div class="col-lg-12">
                             <h4>Sumarte ahora</h4>
@@ -272,7 +274,7 @@
                         </div>
                         <div class="col-md-6 col-sm-12">
                             <fieldset>Correo:
-                                <input name="sumate[email]" type="text" id="email" pattern="[^ @]*@[^ @]*"
+                                <input name="sumate[correo]" type="text" id="email" pattern="[^ @]*@[^ @]*"
                                     placeholder="Email" required="">
                             </fieldset>
                         </div>
@@ -280,8 +282,8 @@
                             <fieldset>Tipo de documento:
                                 <select aria-required="true" aria-invalid="false" name="sumate[tipoDocumento]" required>
                                     <option value="" disabled selected>Selecciona una opción</option>
-                                    <option value="opcion1">DNI</option>
-                                    <option value="opcion2">PASAPORTE</option>
+                                    <option value="DNI">DNI</option>
+                                    <option value="PASAPORTE">PASAPORTE</option>
                                 </select>
                             </fieldset>
                         </div>
@@ -317,8 +319,34 @@
             </div>
         </dialog>
 
+        <script>
+        document.getElementById("contact").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        // Tu código para enviar el formulario
+        var formularioEnviado = <?php echo json_encode($alerta); ?>; 
+        console.log(formularioEnviado);
+        
+        var modal = document.getElementById('modalform');
+        modal.close();
+
+        if (formularioEnviado) {
+            Swal.fire({
+            icon: 'success',
+            title: '¡Formulario enviado!',
+            text: 'El formulario se ha enviado correctamente.',
+            });
+            
+        } else {
+            Swal.fire({
+            icon: 'error',
+            title: 'Error al enviar el formulario',
+            text: 'No se ha podido enviar el formulario. Por favor, intenta nuevamente.',
+            });
+        }
+        });
+    </script>
+
     </header><br>   
-    <?php if($alerta): ?>
-					<p class="check_tls"><?php echo $alerta; ?></p>
-				<?php endif; ?>
+    
     <!-- ***** Header Area End ***** -->

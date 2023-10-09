@@ -27,8 +27,8 @@
 
     <?php include 'includes/views/equipo.php'; ?>
 
-    <?php
-        includeTemplate('footerRedesign');
-    ?>
+<?php
+    includeTemplate('footerRedesign');
+?>
 
 
