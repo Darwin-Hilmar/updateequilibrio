@@ -43,6 +43,22 @@ nav .list-nav li{
     padding: 0;
 }
 
+nav .list-nav li input{
+    border: none;
+    background-color: transparent;
+    display: block;
+    /* padding: 15px 15px;  */
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(119,169,40);
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+nav .list-nav li input:hover{
+    color: rgb(46, 163, 17);
+}
+
 nav .list-nav a{
     display: block;
     padding: 15px 15px; 
@@ -720,6 +736,7 @@ equs
     /* padding: 5px; */
     transition: all .5s;
     border-radius: 3px;
+    margin: 10px;
   }
   
   #equs .equ-item .thumb {
@@ -740,6 +757,7 @@ equs
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
   }
+
   
   #equs .equ-item .down-content {
     margin: 15px;
@@ -966,6 +984,11 @@ reservation
     border-radius: 12px;
   }
 
+  .contact-form select{
+    border-color: #76A929;
+    border-radius: 12px;
+  }
+
   
   .contact-form textarea {
     height: 150px;
@@ -984,7 +1007,7 @@ reservation
     border:none;
     font-size: 30px;
     color: #76A929;
-    margin-left: 84%;   
+    margin-left: 90%;   
     position: absolute;
     margin-bottom: 3%;
   }
@@ -1024,7 +1047,14 @@ reservation
     background-color: white; 
     border: 1px solid #ccc;
     border-radius: 10px; 
-    /* overflow-y: hidden; */
+  }
+
+  #modalform h4{
+    color: rgb(122,168,17);
+  }
+
+  #modalform fieldset{
+    font-weight: bold;
   }
   
   @media (max-width: 768px) {

@@ -37,7 +37,7 @@
                                 <div class="down-content">
                                     <h4>María Cabanillas</h4>
                                     <span>Presidenta de la ONG</span>
-                                    <div class="img-linkedin text-center">
+                                    <div class="d-flex text-center justify-content-center align-items-center">
                                         <img src="/assets/redesign/linkedin.svg" alt="linkedin">
                                     </div>
                                 </div>
@@ -53,7 +53,7 @@
                                 <div class="down-content">
                                     <h4>María Cabanillas</h4>
                                     <span>Presidenta de la ONG</span>
-                                    <div class="img-linkedin text-center">
+                                    <div class="d-flex text-center justify-content-center align-items-center">
                                         <img src="/assets/redesign/linkedin.svg" alt="linkedin">
                                     </div>
                                 </div>
@@ -69,7 +69,7 @@
                                 <div class="down-content">
                                     <h4>María Cabanillas</h4>
                                     <span>Presidenta de la ONG</span>
-                                    <div class="img-linkedin text-center">
+                                    <div class="d-flex text-center justify-content-center align-items-center">
                                         <img src="/assets/redesign/linkedin.svg" alt="linkedin">
                                     </div>
                                 </div>
